@@ -1,6 +1,6 @@
 ---
 - name: adding users using loop
-  hosts: test-server
+  hosts: all
   vars:
     users:
       - jomo
