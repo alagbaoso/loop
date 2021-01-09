@@ -1,0 +1,10 @@
+---
+- name: copy files to another file 
+  hosts: test-server
+  tasks:
+    - name: copy /etc/motd
+      copy:
+        name: copying files
+        src: /etc/motd
+        dest: /etc/motd
+...        
